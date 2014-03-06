@@ -1,0 +1,10 @@
+###crontabs that were automated the jobs
+
+##get google hot trends once an hour
+54 * * * * /usr/local/rvm/bin/ruby-1.9.3-p484 /home/ubuntu/final_project/getdata_scripts/google_get_hot_trends.rb >> /home/ubuntu/final_project/logs/googlehottrends.log 2>&1
+##get twitter trends top countries
+00 * * * * /usr/local/rvm/bin/ruby-1.9.3-p484 /home/ubuntu/final_project/getdata_scripts/twitter_get_tr_topcountries.rb >> /home/ubuntu/final_project/logs/twitter_trends_topcountries.log 2>&1
+##get twitter trends rest of world 
+00 0-23/8 * * *  /usr/local/rvm/bin/ruby-1.9.3-p484 /home/ubuntu/final_project/getdata_scripts/twitter_get_tr_restoworld.rb >> /home/ubuntu/final_project/logs/twitter_trends_restofworld.log 2>&1
+##get instagram popular
+23 * * * *  /usr/local/rvm/bin/ruby-1.9.3-p484 /home/ubuntu/final_project/getdata_scripts/instagram_get_popular.rb >> /home/ubuntu/final_project/logs/instagram_get_popular.log 2>&1
