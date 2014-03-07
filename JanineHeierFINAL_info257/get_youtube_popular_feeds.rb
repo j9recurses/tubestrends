@@ -34,7 +34,7 @@ class GetFeeds
 	end
 end
 
-
+##note: I did have a chance to completely implement this script because I ran out of time. 
 country = [array of countries]
 for country each do | c |
 	youtube  ='http://gdata.youtube.com/feeds/api/standardfeeds/' + c '/most_popular?v=2'

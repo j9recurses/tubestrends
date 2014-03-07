@@ -1,6 +1,6 @@
 
 #!/usr/local/bin/ruby
-####grab the most recent trends for the top places####
+####grab the most recent trends for the top place for where google is getting data for the countries####
 ##output for log###
 puts "#####runnning a trend tube ######"
 puts "starting to grab the twitter trends!!" 
@@ -12,9 +12,8 @@ require_relative './twitter_current_trends_now.rb'
 ##output for log###
 puts "starting to grab the twitter top countries!!" 
 puts Time.now
-
+woeids = [ '1', '23424819' , '23424829' , '23424848' ,'23424909' , '23424936' , '23424948' , '2342497' , '23424977']
 gt =  GetTwiterCurrentTrend.new
-woeids = [1, 23424819 , 23424829 , 23424848 , 23424909 , 23424936 , 23424948 , 23424975 , 23424977]
 require_relative './twitter_get_trends.rb'
 t = TwitterTrends.new
 twitter_all_trends = Array.new
@@ -29,7 +28,7 @@ woeids.each do | w |
 		#there are 415 places to get, so it will take about 7 hrs for this script to run
 		##ex: 415/60 = 6.91 hrs
 		##if you go more than 1 request a minute, will go over the rate limit
-		sleep(60)
+		sleep(20)
 		response_trend_place =  t.make_request_get_response_trend_place(w)
 		tweets_place  = t.parse_trend_places(response_trend_place)
 		trend_rows, trend_rows_string = t.parse_trend_tweets_place (tweets_place)

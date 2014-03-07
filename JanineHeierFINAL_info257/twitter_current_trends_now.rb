@@ -2,15 +2,22 @@
 #!/usr/local/bin/ruby
 ####class to twitter request calls#####
 class GetTwiterCurrentTrend
-	def initialize
-		@my =  ""
+	def initialize 
+		@yes =  "yes"
 	end
-	
+
 	def getwoeidstolookup
 		require_relative './MyCoolClasses.rb'
 		@db = MyCoolClass.new
 		@selectq =  "select woeid from places"
 		@woeids = Array.new
+		#connect to sql db
+		@mydb =  @db.connect_to_sqldb
+		@res = @mydb.query(@selectq)
+		while @row = @res.fetch_hash do
+     		@woeids << @row["woeid"]
+   		end
+   		@selectq =  "select woeid from country"
 		#connect to sql db
 		@mydb =  @db.connect_to_sqldb
 		@res = @mydb.query(@selectq)
@@ -29,20 +36,30 @@ class GetTwiterCurrentTrend
  
 	def insert_twitter_trend_rows_into_the_db(twitter_all_trends, country )
 		@country = country
-		if @country == 'all' 
-			@insertst_orig = 'insert into twitter_trends_places (' 
-		elsif @country = 'cntry'
-			@insertst_orig = 'insert into twitter_trends_country (' 
-		end
-		insert into twitter_trends
 		@twitter_all_trends = twitter_all_trends
-		@insertst_orig = @insertst_orig  + "woeid, the_date, sdoid, as_of, name, url) VALUES"
-			begin
+		begin
 			require_relative './MyCoolClasses.rb'
 			@db = MyCoolClass.new
 			#connect to sql db
 			@mydb =  @db.connect_to_sqldb
+			@selectq =  "select woeid from country"
+			@woeidscntry = Array.new
+			@res = @mydb.query(@selectq)
+			while @row = @res.fetch_hash do
+     			@woeidscntry << @row["woeid"]
+   			end
 			@twitter_all_trends.each do |w|
+				## check to see if the trend is a place or a country: 
+				if @country == 'all' 
+					@insertst_orig = 'insert into twitter_trends_places (' 
+					if @woeidscntry.include?(w)
+						@insertst_orig = 'insert into twitter_trends_country (' 
+					end
+				elsif @country == 'cntry'
+					@insertst_orig = 'insert into twitter_trends_country (' 
+				end
+					@insertst_orig = @insertst_orig  + "woeid, the_date, sdoid, as_of, name, url) VALUES"
+				##do some data cleaning
 				@insertst = @insertst_orig + " ( "
 				@insertst = @insertst_orig + " ( "
 				@mystringnumbs = [3,4,5]
@@ -64,6 +81,7 @@ class GetTwiterCurrentTrend
 				end
 				@insertst = @insertst.chop + "); "
 			@mydb.query(@insertst)
+			puts @insertst
 			puts 'inserted some stuff'
 			end
 		rescue Exception=>e 
