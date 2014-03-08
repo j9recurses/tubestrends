@@ -27,12 +27,12 @@ Each API call returns the top 10 trending topics for a a specific yahoo WOEID th
 Google Hot Trends → http://www.google.com/trends/hottrends → search engine site
 Google releases the number of people that searching for different topics I was able to get the trend data for the other 7 countries by writing a ruby script that scraped the Google hot trend web site.
 
-Youtube → http://www.youtube.com → video search engine	
+<b>Youtube → http://www.youtube.com → video search engine<b>
 API resource, GET Most Popular
 API returns the feed of the most popular videos for the past day
 Also can return the most popular videos for a particular geographical region for the past day; Data for 39 countries is availible
 
-Instagram → Instagram.com → photo sharing social networking platform
+Instagram → http://www.instagram.com → photo sharing social networking platform
 API resource, GET Most Popular
 This API gets a list of what media is most popular at the moment. Can return mix of image and video types. API will also return the latitude and longitude coordinates of popular item when availible.
 
