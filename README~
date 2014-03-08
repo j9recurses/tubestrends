@@ -1,29 +1,19 @@
-Purpose of project:
+Purpose of Tubes Trends:
 
 This project collects information about internet “trending” data from major web platforms and social networks hopes to the
 following purposes:
 	
--to create an database model of world-trends that give gives a way to both see trends occur in
-real time (instantaneous) and think about trends in the long-term (over a course of a week,
-month, year, etc)
-
--map that trending data to the geographical coordinates of latitude and longitude how the data
-pieces geographically relate to each other;
-
--provide a way for users to compare and contrast what's “trending” on different search platforms
-and social networks to see if there are common themes
-
--show the duration of time that items/topics/people/ideas/places/stories are popular/trending on
-the Internet
-
--to illuminate a potential “zeitgeist” that may or may not exist on the internet or in the world.
+	-to create an database model of world-trends that give gives a way to both see trends occur inreal time (instantaneous) and think about trends in the long-term (over a course of a week, month, year, etc)s
+	-map that trending data to the geographical coordinates of latitude and longitude how the data pieces geographically relate to each other;
+	-provide a way for users to compare and contrast what's “trending” on different search platforms and social networks to see if there are common themes
+	-show the duration of time that items/topics/people/ideas/places/stories are popular/trending on the Internet
+	-to illuminate a potential “zeitgeist” that may or may not exist on the internet or in the world.
 
 General Design: 
 To gather the data, mentioned above, I wrote ruby scripts that collected the trend data, parsed the trend
 data, and then inserted the data into my database. From an amazon ec2, server, I deployed these the
 ruby scripts to run at regular intervals using the cron-tab. Below, I list a few details about how I
-implemented of my database system. Additionally, all the scripts for this project were turned in and
-referenced below, in case you'd like to see how they were exactly implemented.
+implemented of my database system. Additionally, all the scripts for this project included in the classes dir, in case you'd like to see how they were exactly implemented.
 
 Data Sources:
 Twitter → http://www.twitter.com → social networking platform
@@ -32,7 +22,6 @@ Twitter → http://www.twitter.com → social networking platform
 
 	API resource, GET trends/place
 	Each API call returns the top 10 trending topics for a a specific yahoo WOEID that trending data is available for.
-
 
 Google Hot Trends → http://www.google.com/trends/hottrends → search engine site
 	Google releases the number of people that searching for different topics I was able to get the trend data for the other 7 countries by writing a ruby script that scraped the Google hot trend web site.
