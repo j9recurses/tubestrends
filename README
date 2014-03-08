@@ -1,8 +1,9 @@
-Purpose of Tubes Trends:
+
+se of Tubes Trends:
 
 This project collects information about internet “trending” data from major web platforms and social networks hopes to the
 following purposes:
-	
+
 -to create an database model of world-trends that give gives a way to both see trends occur inreal time (instantaneous) and think about trends in the long-term (over a course of a week, month, year, etc)
 -map internet trending data to the geographical coordinates of latitude and longitude how the data pieces geographically relate to each other;
 -provide a way for users to compare and contrast what's “trending” on different search platforms and social networks to see if there are common themes
@@ -46,9 +47,6 @@ The database can be use to do such things as:
 1. Show, in the past 5 days, what and in what countries have Google and twitter had similar trend items
 2. Find the 35 highest trending/most talked items in the database
 3.Get Twitter Trending Data, google hot trends, data, youtube trend data and instragram popular data for specific days/times for specific geographic locations
-
-
-
 
 
 
