@@ -1,4 +1,4 @@
---- make a continent table 
+-- make a continent table 
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `tubes_trends`.`continent`;
 
@@ -41,38 +41,35 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`country` (
    PRIMARY KEY (`idcountry`),
    INDEX (`woeid` ),
    INDEX (`continent`),
-   INDEX (`sdoid` ), 
-   FOREIGN KEY (`sdoid`) references `tubes_trends`.`source_data_orgs` (`sdoid`),
-   FOREIGN KEY (`continent`) references `tubes_trends`.`continent` (`idcontinent`))
+   INDEX (`sdoid` ))
 ENGINE = InnoDB
 COMMENT = 'table is a mapping table; this maps country to place and maps country to twitter avail. 
 places. Gets yahoo woeid info';
 
----normalization of the data below; we split out countries from places.
+-- normalization of the data below; we split out countries from places.
 
---grab the countries from out of the places table
+-- grab the countries from out of the places table
+
 insert into `tubes_trends`.`country` (`woeid`,`the_date`,`sdoid`,`placetype`,`name`,`latcent`,`longcent`,`latsw`,`longsw`,`latne`,`longne`,
 `poprank`,`arearank`,`timezone`,`admin1type`,`admin1`,`admin2type`,`admin2`,`admin3type`,`admin3` )
 select `woeid`,`the_date`,`sdoid`,`placetype`,`name`,`latcent`,`longcent`,`latsw`,`longsw`,`latne`,`longne`,
 `poprank`,`arearank`,`timezone`,`admin1type`,`admin1`,`admin2type`,`admin2`,`admin3type`,`admin3` 
 from `tubes_trends`.`places` where `placetype` = 'Country';
 
---now delete the countries table;
-delete from `tubes_trends`.`places` where `woeid` in (select `woeid` from `country`);
+-- now delete the countries table
 
---grab the worldwide woeid
+delete from `tubes_trends`.`places` where `woeid` in ( select `woeid` from `country`);
+
+-- grab the worldwide woeid
+
 insert into `tubes_trends`.`country` (`woeid`,`the_date`,`sdoid`,`placetype`,`name`,`latcent`,`longcent`,`latsw`,`longsw`,`latne`,`longne`,
 `poprank`,`arearank`,`timezone`,`admin1type`,`admin1`,`admin2type`,`admin2`,`admin3type`,`admin3` )
 select `woeid`,`the_date`,`sdoid`,`placetype`,`name`,`latcent`,`longcent`,`latsw`,`longsw`,`latne`,`longne`,
 `poprank`,`arearank`,`timezone`,`admin1type`,`admin1`,`admin2type`,`admin2`,`admin3type`,`admin3` 
-from `tubes_trends`.`places` where country = '0'
+from `tubes_trends`.`places` where country = '0';
 
---delete worldwide from woeid
+-- delete worldwide from woeid
 delete from `tubes_trends`.`places` where `woeid` in (select `woeid` from `country`);
-
---Add a foreign key reference to country now that we have the the countries
-ALTER TABLE places ADD FOREIGN KEY (`country`) REFERENCES country(`woeid`);
-
 
 -- -----------------------------------------------------
 -- Table `tubes_trends`.`twitter_trends`
@@ -94,21 +91,6 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`twitter_trends_country` (
 ENGINE = InnoDB
 COMMENT = 'table is a table of all the twitter trends--> works by country its searchable on whoeid';
 
---use fK contraints to mimize damage from accidentical deletes
-
-ALTER TABLE `tubes_trends`.`twitter_trends_country`
-ADD CONSTRAINT FK_woeids_tw_trend_places_sdoid
-FOREIGN KEY (sdoid) REFERENCES source_data_orgs(sdoid) 
-On Delete Restrict
-on update Restrict;
-
-ALTER TABLE `tubes_trends`.`twitter_trends_country`
-ADD CONSTRAINT FK_trend_current_country_woeidz
-FOREIGN KEY (woeid) REFERENCES country(woeid) 
- On Delete Restrict
- On UPDATE Restrict;
-
-
 DROP TABLE IF EXISTS `tubes_trends`.`twitter_trends_places`;
 CREATE  TABLE IF NOT EXISTS `tubes_trends`.`twitter_trends_places` (
   `idtwtrendplaces` INT  NOT NULL AUTO_INCREMENT ,
@@ -123,12 +105,12 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`twitter_trends_places` (
    INDEX (`woeid`) ,
    INDEX (`sdoid`))
 ENGINE = InnoDB
-COMMENT = 'table is a table of all the twitter trends for all places--> its searchable on woeid';
+COMMENT = 'table is a table of all the twitter trends for all places - its searchable on woeid';
 
 
---put foreign key constraints here; we don't want someone
- --delete a given parent row if a child row exists that references the value for that parent row.
- --if that happpened, it could kill all the data that was collected, and be a mess to sort out
+-- put foreign key constraints here; we don't want someone
+-- delete a given parent row if a child row exists that references the value for that parent row.
+-- if that happpened, it could kill all the data that was collected, and be a mess to sort out
 
 ALTER TABLE `tubes_trends`.`twitter_trends_places`
 ADD CONSTRAINT FK_woeids_tw_trend_places_more_sdoid
@@ -149,6 +131,7 @@ FOREIGN KEY (woeid) REFERENCES places(woeid)
 -- Table `tubes_trends`.`google_hottrends`
 -- -----------------------------------------------------
 
+
 DROP TABLE IF EXISTS `tubes_trends`.`google_hottrends` ;
 CREATE  TABLE IF NOT EXISTS `tubes_trends`.`google_hottrends` (
   `idgoogle_hottrends` INT NOT NULL AUTO_INCREMENT ,
@@ -168,19 +151,7 @@ ENGINE = InnoDB
 COMMENT = 'table contains data collected from a ruby script that scrape google hot trend website';
 
 
---use fK contraints to mimize damage from accidentical deletes
 
-ALTER TABLE `tubes_trends`.`google_hottrends`
-ADD CONSTRAINT FK_woeids_googlez_sdoid
-FOREIGN KEY (sdoid) REFERENCES source_data_orgs(sdoid) 
-On Delete Restrict
- On UPDATE Restrict;
-
-ALTER TABLE `tubes_trends`.`google_hottrends`
-ADD CONSTRAINT FK_trend_google_woeidz
-FOREIGN KEY (woeid) REFERENCES country(woeid) 
-On Delete Restrict
- On UPDATE Restrict;
 
 -- -----------------------------------------------------
 -- Table `tubes_trends`.`instgm_popular`
@@ -210,18 +181,11 @@ ENGINE = InnoDB
 COMMENT = 'table contains data collected from a ruby script that collects data from the instagram api';
 
 
---use fK contraints to mimize damage from accidentical deletes
-
-
-ALTER TABLE `tubes_trends`.`instgm_popular`
-ADD CONSTRAINT FK_woeids_instgm_popular_sdoid
-FOREIGN KEY (sdoid) REFERENCES source_data_orgs(sdoid) 
-On Delete Restrict
- On UPDATE Restrict;
 
 -- -----------------------------------------------------
 -- Table `tubes_trends`.`youtube_country`
 -- -----------------------------------------------------
+
 DROP TABLE IF EXISTS `tubes_trends`.`youtube_country`;
 CREATE  TABLE IF NOT EXISTS `tubes_trends`.`youtube_country` (
   `idyoutube_country` INT  NOT NULL AUTO_INCREMENT ,
@@ -231,14 +195,6 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`youtube_country` (
    PRIMARY KEY (idyoutube_country))
 ENGINE = InnoDB
 COMMENT = 'table is a mapping table; maps youtube country code to places tables on country name';
-
-
-ALTER TABLE `tubes_trends`.`youtube_country` 
-ADD CONSTRAINT FK_woeids_country_sdoid
-FOREIGN KEY (`sdoid`) REFERENCES source_data_orgs(`sdoid`) 
-on delete cascade
-on update cascade;
-
 
 INSERT INTO `tubes_trends`.`youtube_country` (sdoid, countryname, yt_cntry_code) VALUES (5, 'Australia','AU');
 INSERT INTO `tubes_trends`.`youtube_country` (sdoid, countryname, yt_cntry_code) VALUES (5, 'Austria','AT');
@@ -280,12 +236,13 @@ INSERT INTO `tubes_trends`.`youtube_country` (sdoid, countryname, yt_cntry_code)
 INSERT INTO `tubes_trends`.`youtube_country` (sdoid, countryname, yt_cntry_code) VALUES (5, 'United Arab Emirates','AE');
 INSERT INTO `tubes_trends`.`youtube_country` (sdoid, countryname, yt_cntry_code) VALUES (5, 'United States','US');
 
---now lets do some acrobatics to get the woeids so that we can just have a mapping table 
+-- now lets do some acrobatics to get the woeids so that we can just have a mapping table 
 -- that is just the woeids and youtube country codes.
---create table you_tube_cc_map as select yc.sdoid, woeid, yt_cntry_code
----from youtube_country yc  join country c
----on yc.countryname = c.name 
- DrOP TABLE IF EXISTS `tubes_trends`.`youtubescntry`;
+-- create table you_tube_cc_map as select yc.sdoid, woeid, yt_cntry_code
+-- from youtube_country yc  join country c
+-- on yc.countryname = c.name 
+
+DrOP TABLE IF EXISTS `tubes_trends`.`youtubescntry`;
 CREATE  TABLE IF NOT EXISTS `tubes_trends`.`youtubescntry` (
   `idyoutubecntry` INT NOT NULL AUTO_INCREMENT ,
   `woeid` INT, 
@@ -294,9 +251,7 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`youtubescntry` (
    PRIMARY KEY (idyoutubecntry), 
    INDEX (`woeid`) ,
    INDEX (`sdoid`), 
-	INDEX(`yt_cntry_code`), 
-    FOREIGN KEY (`sdoid`) references `tubes_trends`.`source_data_orgs` (`sdoid`),
-   FOREIGN KEY (`woeid`) references `tubes_trends`.`country` (`woeid`))
+	INDEX(`yt_cntry_code`))
   ENGINE = InnoDB
   COMMENT = 'table is a mapping table; maps youtube country_code to woeid'; 
 
@@ -314,15 +269,66 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`youtube_popular` (
   PRIMARY KEY (idyoutube_popular), 
    INDEX (`sdoid`), 
     INDEX (`woeid`) ,
-	INDEX (`yt_cntry_code`)
- 	FOREIGN KEY (`yt_cntry_code`) REFERENCES `tubes_trends`.`youtubescntry`(`yt_cntry_code`),
-   FOREIGN KEY (`sdoid`) references `tubes_trends`.`source_data_orgs` (`sdoid`),
-   FOREIGN KEY (`woeid`) references `tubes_trends`.`country` (`woeid`))
+	INDEX (`yt_cntry_code`))
 ENGINE = InnoDB
 COMMENT = 'table is a mapping table; maps youtube country_code to woeid'; 
 
 
----put foreign key constraints here to keep in check the data integretiy
+-- put foreign key constraints here to keep in check the data integ.
+-- Add a foreign key reference to country now that we have the the countries
+
+
+
+-- use fK contraints to mimize damage from accidentical deletes
+
+ALTER TABLE places 
+ADD CONSTRAINT FK_woeids_country
+ADD FOREIGN KEY (`country`) REFERENCES country(`woeid`);
+on delete restrict 
+on update restrict;
+
+
+
+ALTER TABLE `tubes_trends`.`youtube_country` 
+ADD CONSTRAINT FK_woeids_country_sdoid
+FOREIGN KEY (`sdoid`) REFERENCES source_data_orgs(`sdoid`) 
+On Delete Restrict
+ On UPDATE Restrict;
+
+
+
+
+ALTER TABLE `tubes_trends`.`google_hottrends`
+ADD CONSTRAINT FK_woeids_googlez_sdoid
+FOREIGN KEY (sdoid) REFERENCES source_data_orgs(sdoid) 
+On Delete Restrict
+On UPDATE Restrict;
+
+ALTER TABLE `tubes_trends`.`google_hottrends`
+ADD CONSTRAINT FK_trend_google_woeidz
+FOREIGN KEY (woeid) REFERENCES country(woeid) 
+On Delete Restrict
+ On UPDATE Restrict;
+
+ALTER TABLE `tubes_trends`.`instgm_popular`
+ADD CONSTRAINT FK_woeids_instgm_popular_sdoid
+FOREIGN KEY (sdoid) REFERENCES source_data_orgs(sdoid) 
+On Delete Restrict
+ On UPDATE Restrict;
+
+
+ALTER TABLE `tubes_trends`.`twitter_trends_country`
+ADD CONSTRAINT FK_woeids_tw_trend_places_sdoid
+FOREIGN KEY (sdoid) REFERENCES source_data_orgs(sdoid) 
+On Delete Restrict
+on update Restrict;
+
+ALTER TABLE `tubes_trends`.`twitter_trends_country`
+ADD CONSTRAINT FK_trend_current_country_woeidz
+FOREIGN KEY (woeid) REFERENCES country(woeid) 
+ On Delete Restrict
+ On UPDATE Restrict;
+
 
 ALTER TABLE `tubes_trends`.`youtube_popular`
 ADD CONSTRAINT FK_woeids_youttube_sdoid
@@ -337,6 +343,58 @@ FOREIGN KEY (woeid) REFERENCES country(woeid)
  On UPDATE Restrict;
 
 
+ ---add fk for country to continent. 
+ ALTER TABLE `tubes_trends`.`country`
+ ADD CONSTRAINT FK_continent
+FOREIGN KEY (continent) REFERENCES continent(idcontinent) 
+ On Delete Restrict
+ On UPDATE Restrict;
+
+
+ALTER TABLE `tubes_trends`.`country`
+ ADD CONSTRAINT FK_country_sdoid
+ FOREIGN KEY (`sdoid`) references `tubes_trends`.`source_data_orgs` (`sdoid`))
+ On Delete Restrict
+ On UPDATE Restrict;
+
+
+ALTER TABLE `tubes_trends`.`youtubescntry`
+ADD CONSTRAINT FK_youtubescntry_sdoid
+ FOREIGN KEY (`sdoid`) references `tubes_trends`.`source_data_orgs` (`sdoid`),
+ On Delete Restrict
+ On UPDATE Restrict;
+
+
+ALTER TABLE `tubes_trends`.`youtubescntry`
+ADD CONSTRAINT FK_youtubescntry_woeid
+FOREIGN KEY (`woeid`) references `tubes_trends`.`country` (`woeid`))
+ On Delete Restrict
+ On UPDATE Restrict;
+
+
+ALTER TABLE `tubes_trends`.`youtube_popular`
+ADD CONSTRAINT FK_youtube_popular_woeid
+FOREIGN KEY (`woeid`) references `tubes_trends`.`country` (`woeid`))
+  On Delete Restrict
+ On UPDATE Restrict;
+
+ ALTER TABLE `tubes_trends`.`youtube_popular`
+ADD CONSTRAINT FK_youtube_popular_sdoid
+ FOREIGN KEY (`sdoid`) references `tubes_trends`.`source_data_orgs` (`sdoid`),
+ On Delete Restrict
+ On UPDATE Restrict;
+
+
+ALTER TABLE `tubes_trends`.`youtube_popular`
+ADD CONSTRAINT FK_youtube_yt_cntry_code
+ FOREIGN KEY (`yt_cntry_code`) REFERENCES `tubes_trends`.`youtubescntry`(`yt_cntry_code`),
+ On Delete Restrict
+ On UPDATE Restrict;
+
+
+
+
+ 
 
 
 

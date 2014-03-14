@@ -1,8 +1,6 @@
 
  
--- create the database
-
-DROP DATABASE IF EXISTS `tubes_trends`;
+--create the database
 CREATE DATABASE IF NOT EXISTS `tubes_trends`; 
 
 -- -----------------------------------------------------
@@ -20,7 +18,7 @@ COMMENT = 'mapping table; contains the id and name of source data from websites'
 
 -- -----------------------------------------------------
 -- Table `tubes_trends`.`source_data_orgs` insert statements
--- need to run them now, because ruby code is dependent on these id values being stable
+---need to run them now, because ruby code is dependent on these id values being stable
 -- -----------------------------------------------------
 insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('twitter', 'http://www.twitter.com') ;
 insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('google', 'http://www.google.com/trends/') ;
@@ -46,7 +44,7 @@ ENGINE = InnoDB
 COMMENT = 'table contains data collected from a ruby script to get the twitter avail places website';
 
 
--- insert csome countries tjat arent in the twitter woeids
+---insert csome countries tjat arent in the twitter woeids
 insert into `tubes_trends`.`twitter_available_places`(`woeid`, `sdoid`) VALUES ( 23424971, 3); 
 insert into `tubes_trends`.`twitter_available_places`(`woeid`, `sdoid`) VALUES ( 23424852, 3); 
 insert into `tubes_trends`.`twitter_available_places`(`woeid`, `sdoid`) VALUES (24865698, 3);
@@ -86,7 +84,7 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`places` (
 ENGINE = InnoDB
 COMMENT = 'table is a mapping table; yahoo woeid info';
 
--- now, we need to populate the places table 
+--------now, we need to populate the places table 
 -- to populate the places table, we need to get data from the yahoo woeid api.
--- At this point, run the script:
--- twitter_aval_places.rb
+---At this point, run the script:
+---twitter_aval_places.rb
