@@ -1,0 +1,19 @@
+You do not need hosting from GoDaddy. I have GoDaddy and I host with EC2. It is very simple to set up a website on EC2 and link it to a GoDaddy domain.
+
+Here is what you do:
+
+1. Launch an EC2 instance ( you can do this easily on the aws ec2 console at https://console.aws.amazon.com/e...)
+
+2. Set up your web server. If you have a Linux instance, this is called Apache, if Windows Server, this is IIS Services. There are many instructions on how to do this on the web.
+
+At this point your website should be up and running but you probably have a long amazon url ( i.e. ec2-175-41-219-186.ap-northeast-1.compute.amazonaws.com ). The next steps will explain how to associate your GoDaddy domain with the instance.
+
+3. Allocate an Elastic IP and associate it with your instance. This is really easy and you can do this in AWS EC2 console. Where it says "Networking & Security" on the left, click on "Elastic IPs". Then click "Allocate New Address", then "Associate Address", and select the instance you created in step one.
+
+Now you will have an elastic IP which is a number that looks like 175.41.240.45. Save that number because we will use it later.
+
+4. Go to the Zone Editor in GoDaddy. Now log into GoDaddy and go to this link: https://dns.godaddy.com/default.... Or from the home page, go to Domains -> My Account -> Domain Management -> DNS Manager. Click "Edit Zone" when it appears.
+
+5. Associate domain with Elastic IP. In the Zone Editor, you will see several tables. In the table where it says "A (Host)", find the entry where Host = "@". Click on that entry to edit the field for "Points to". Add the elastic IP you just got from Amazon. Click "Save Zone File" when you are done.
+
+6. Complete. After a few minutes your domain should now start resolving to the web server you have on EC2.
