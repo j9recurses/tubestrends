@@ -139,7 +139,7 @@ class GetInstagramPopular
           end
         end
         w.each do |w2|
-          puts w2
+          ##puts w2
           wordsize =  w2.to_s.size
           ###make sure to escape all the weird chars; Don't want a sql injection atttack on the db
           if w2.nil?
@@ -153,8 +153,7 @@ class GetInstagramPopular
           end
         end
       @insertst = @insertst.chop + "); "
-      puts @insertst
-      @mydb.query(@insertst)
+       @mydb.query(@insertst)
       end
     rescue Exception=>e 
       puts "Something went wrong! Could not connect to DB"
@@ -168,7 +167,7 @@ end
 gpi = GetInstagramPopular.new
 body = gpi.makegetpoprequest 
 instagram_row_all, instagram_row_all_string = gpi.parsebody(body)
-puts instagram_row_all_string
+puts "getting instagram trends on " + gpi.get_date.to_s
 gpi.insert_woeids_info_to_db(instagram_row_all)
 
 

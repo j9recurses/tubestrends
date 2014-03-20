@@ -116,3 +116,8 @@ FOREIGN KEY (yt_cntry_code) REFERENCES youtubescntry (`yt_cntry_code`)
 ON DELETE Restrict
 ON UPDATE Restrict;
 
+ALTER TABLE `tubes_trends`.`places`
+ADD CONSTRAINT FK_places_country_woeidz
+FOREIGN KEY (woeid) REFERENCES country(woeid) 
+ON DELETE Restrict
+ON UPDATE Restrict;

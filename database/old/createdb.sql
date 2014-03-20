@@ -43,7 +43,6 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`places` (
   `placetype` varchar(75),
   `name` varchar(150),
   `country` INT,
-  `countrycode` varchar(4),
   `latcent`  float,
   `longcent`  float,
   `latsw`  float, 
@@ -85,7 +84,6 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`country` (
   `continent` INT,
   `placetype` varchar(75),
   `name` varchar(150),
-  `countrycode` varchar(4),
   `latcent`  float,
   `longcent`  float,
   `latsw`  float, 
@@ -123,7 +121,7 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`twitter_trends_country` (
    `as_of` varchar(30),
    `name` varchar(150),
    `url`  varchar(200),
-   PRIMARY KEY (`idtwtrendcountry`),
+   PRIMARY KEY (`idtwtrendplaces`),
    INDEX (`woeid`) ,
    INDEX (`sdoid`))
 ENGINE = InnoDB
@@ -259,8 +257,6 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`timezone` (
   `continent` INT,
   `placetype` varchar(75),
   `name` varchar(150),
-  `country` INT,
-  `countrycode` varchar(4), 
   `latcent`  float,
   `longcent`  float,
   `latsw`  float, 
@@ -281,26 +277,6 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`timezone` (
    INDEX (`sdoid` ))
 ENGINE = InnoDB
 COMMENT = 'table is a mapping table; this maps timezone to place. Gets yahoo woeid info';
-
--- -----------------------------------------------------
--- Table `tubes_trends`.`source_data_orgs` insert statements
--- need to run them now, because ruby code is dependent on these id values being stable
--- -----------------------------------------------------
-
-insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('twitter', 'http://www.twitter.com') ;
-insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('google', 'http://www.google.com/trends/') ;
-insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('yahoo', 'http://www.yahoo.com') ;
-insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('instagram', 'http://www.instagram.com') ;
-insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('youtube', 'http://www.youtube.com') ;
-
--- insert continent values
-INSERT INTO `tubes_trends`.`continent` (name) VALUES ('Asia');
-INSERT INTO `tubes_trends`.`continent` (name)  VALUES ('Europe');
-INSERT INTO `tubes_trends`.`continent` (name ) VALUES ('North America');
-INSERT INTO `tubes_trends`.`continent` (name ) VALUES ('South America');
-INSERT INTO `tubes_trends`.`continent` (name ) VALUES ('Africa');
-INSERT INTO `tubes_trends`.`continent` (name ) VALUES ('Middle East');
-
 
 -- At this point, run the script:
 -- twitter_aval_places.rb

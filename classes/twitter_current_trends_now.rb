@@ -36,6 +36,7 @@ class GetTwiterCurrentTrend
  
 	def insert_twitter_trend_rows_into_the_db(twitter_all_trends, country )
 		@country = country
+		puts @country
 		@twitter_all_trends = twitter_all_trends
 		begin
 			require_relative './MyCoolClasses.rb'
@@ -81,12 +82,9 @@ class GetTwiterCurrentTrend
 				end
 				@insertst = @insertst.chop + "); "
 			@mydb.query(@insertst)
-			puts @insertst
-			puts 'inserted some stuff'
 			end
 		rescue Exception=>e 
-			puts "Something went wrong! Could not connect to DB"
-			puts e
+			puts "Something went wrong! Could not insert data for " + country
 		end	
 	end
 	

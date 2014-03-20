@@ -1,0 +1,1 @@
+Tubes Trends is an automated ETL application that collects and organizes internet trend data by latitude and longitude location. The goal of this application is to use the data collected to analyze and answer questions about global internet trends by location, as well as compare what sorts of  items are trending on different social networks. 

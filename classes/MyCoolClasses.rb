@@ -39,7 +39,7 @@ class MyCoolClass
 	end	
 
 	def write_trend_rows_to_file2 (filename, list)
-  		@filename = filename
+  		@filename =  filename
   		@list = list
   		begin
   			# Create a new file and write to it  
