@@ -110,27 +110,27 @@ COMMENT = 'table is a mapping table; this maps country to place and maps country
 places. Gets yahoo woeid info';
 
 -- -----------------------------------------------------
--- Table `tubes_trends`.`twitter_trends`
+-- Table `tubes_trends`.`twitter_trends_country`
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `tubes_trends`.`twitter_trends_country`;
-
 CREATE  TABLE IF NOT EXISTS `tubes_trends`.`twitter_trends_country` (
-  `idtwtrendplaces` INT  NOT NULL AUTO_INCREMENT ,
+  `idtwtrendcountry` INT  NOT NULL AUTO_INCREMENT ,
   `woeid` INT NOT NULL,
   `the_date`  DATE, 
   `sdoid` INT NOT NULL ,
   `retrieved_at`  timestamp NOT NULL default CURRENT_TIMESTAMP,
-   `as_of` varchar(30),
-   `name` varchar(150),
-   `url`  varchar(200),
-   PRIMARY KEY (`idtwtrendcountry`),
-   INDEX (`woeid`) ,
-   INDEX (`sdoid`))
+  `as_of` varchar(30),
+  `title` varchar(150),
+  `url`  varchar(200),
+  PRIMARY KEY (`idtwtrendcountry`),
+  INDEX (`woeid`) ,
+  INDEX (`sdoid`))
 ENGINE = InnoDB
 COMMENT = 'table is a table of all the twitter trends--> works by country its searchable on whoeid';
 
-
-
+-- -----------------------------------------------------
+-- Table `tubes_trends`.`twitter_trends_places`
+-- -----------------------------------------------------
 DROP TABLE IF EXISTS `tubes_trends`.`twitter_trends_places`;
 CREATE  TABLE IF NOT EXISTS `tubes_trends`.`twitter_trends_places` (
   `idtwtrendplaces` INT  NOT NULL AUTO_INCREMENT ,
@@ -138,12 +138,12 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`twitter_trends_places` (
   `the_date`  DATE, 
   `sdoid` INT NOT NULL ,
   `retrieved_at`  timestamp NOT NULL default CURRENT_TIMESTAMP,
-   `as_of` varchar(30),
-   `name` varchar(150),
-   `url`  varchar(200),
-   PRIMARY KEY (`idtwtrendplaces`),
-   INDEX (`woeid`) ,
-   INDEX (`sdoid`))
+  `as_of` varchar(30),
+  `title` varchar(150),
+  `url`  varchar(200),
+  PRIMARY KEY (`idtwtrendplaces`),
+  INDEX (`woeid`) ,
+  INDEX (`sdoid`))
 ENGINE = InnoDB
 COMMENT = 'table is a table of all the twitter trends for all places--> its searchable on woeid';
 
@@ -160,11 +160,11 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`google_hottrends` (
   `the_date`  DATE, 
   `sdoid` INT NOT NULL ,
   `retrieved_at`  timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
-  `trending_item` VARCHAR(100) NULL ,
-  `trend_search_count` VARCHAR(45) NULL ,
-  `google_trend_ranking` INT NULL ,
-  `trend_url` VARCHAR(100) NULL ,
-  `trend_image_url` VARCHAR(100) NULL ,
+  `title` VARCHAR(150) NULL ,
+  `search_count` VARCHAR(45) NULL ,
+  `rank` INT NULL ,
+  `url` VARCHAR(100) NULL ,
+  `image_url` VARCHAR(100) NULL ,
   PRIMARY KEY (`idgoogle_hottrends`),
    INDEX (`woeid`) ,
    INDEX (`sdoid`))
@@ -194,6 +194,7 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`instgm_popular` (
   `caption` varchar(150),
   `likes_count` INT, 
   `content_type` varchar(2), 
+  `closet_woeid` INT,
    PRIMARY KEY (`idistgma_popular`),
    INDEX (`woeid`) ,
    INDEX (`sdoid`))
@@ -282,6 +283,45 @@ CREATE  TABLE IF NOT EXISTS `tubes_trends`.`timezone` (
 ENGINE = InnoDB
 COMMENT = 'table is a mapping table; this maps timezone to place. Gets yahoo woeid info';
 
+
+-- -----------------------------------------------------
+-- Table `tubes_trends`.`yahootrends`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `tubes_trends`.`yahoo_trends`;
+CREATE  TABLE IF NOT EXISTS `tubes_trends`.`yahootrends` (
+  `idyahootrends` INT  NOT NULL AUTO_INCREMENT ,
+  `the_date` DATE, 
+  `sdoid` INT NOT NULL ,
+  `retrieved_at`  timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `rank` INT, 
+  `title` varchar(100), 
+   PRIMARY KEY (idyahootrends))
+ENGINE = InnoDB
+COMMENT = 'table stores yahoo trending data found at https://www.yahoo.com/';
+
+
+-- -----------------------------------------------------
+-- Table `tubes_trends`.`facebook_trends`
+-- -----------------------------------------------------
+
+DROP TABLE IF EXISTS `tubes_trends`.`facebook_trends` ;
+CREATE  TABLE IF NOT EXISTS `tubes_trends`.`facebook_trends` (
+  `idfacebooktrends` INT NOT NULL AUTO_INCREMENT ,
+  `the_date`  DATE, 
+  `sdoid` INT NOT NULL ,
+  `retrieved_at`  timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
+  `title` VARCHAR(150) NULL ,
+  `rank` INT NULL ,
+  `description`  VARCHAR(150) NULL ,
+  `url` VARCHAR(100) NULL ,
+  `image_url` VARCHAR(100) NULL ,
+  PRIMARY KEY (`idfacebooktrends`),
+  INDEX (`sdoid`))
+ENGINE = InnoDB
+COMMENT = 'table contains data collected from a ruby script that scrape the facebook website';
+
+
+
 -- -----------------------------------------------------
 -- Table `tubes_trends`.`source_data_orgs` insert statements
 -- need to run them now, because ruby code is dependent on these id values being stable
@@ -292,6 +332,7 @@ insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('go
 insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('yahoo', 'http://www.yahoo.com') ;
 insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('instagram', 'http://www.instagram.com') ;
 insert into `tubes_trends`.`source_data_orgs`  (name, homepage_url ) VALUES ('youtube', 'http://www.youtube.com') ;
+insert into `tubes_trends`.`source_data_orgs`   (name, homepage_url) VALUES ('facebook', 'www.facebook.com');
 
 -- insert continent values
 INSERT INTO `tubes_trends`.`continent` (name) VALUES ('Asia');

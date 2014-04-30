@@ -1,0 +1,137 @@
+"25 aprile 2014"	2
+"25 aprile"	4
+"25 de abril de 1974"	2
+"aditya chopra"	4
+"administrative professionals day"	1
+"albert pujols"	1
+"alexandra hedison"	25
+"amanda seyfried"	1
+"anzac day 2014"	2
+"atletico madrid"	7
+"atletico madrid chelsea"	1
+"avril lavigne"	3
+"axel kahn"	1
+"badr hari"	2
+"belle knox"	2
+"benfica juventus"	9
+"benji marshall"	7
+"breaking news"	2
+"brick mansions"	2
+"buddy franklin"	7
+"cameron diaz"	5
+"carol portaluppi"	2
+"catherine allegret"	4
+"champions league"	9
+"cicha woda"	2
+"cindy sander"	4
+"coe prices"	4
+"comment tuer son boss"	3
+"conchita wurst"	4
+"copa libertadores 2014"	1
+"correio do minho"	5
+"dalai lama"	4
+"dia del libro"	10
+"dia do livro"	3
+"dia mundial do livro"	5
+"dunkin donuts"	3
+"earthquake today"	4
+"egzamin gimnazjalny 2014"	2
+"emma stone"	7
+"eva carneiro"	15
+"fleche wallonne 2014"	2
+"fleche wallonne 2014 parcours"	1
+"gaspard gantzer"	3
+"gayton mckenzie"	3
+"gilberto rodriguez leal"	1
+"gisela barreto"	1
+"hans hollein"	4
+"iggy azalea"	5
+"jan delay"	2
+"jan karski"	5
+"jodie foster"	16
+"john travolta"	8
+"joke van de velde"	5
+"knihy bez dph"	4
+"lupita nyongo"	1
+"lupita nyong o"	3
+"manchester united"	9
+"max planck"	14
+"mcdonalds hello kitty"	1
+"m club"	9
+"meryl streep"	2
+"michael glawogger"	3
+"oneplus one"	20
+"one plus one"	3
+"pine tar"	5
+"prediksi benfica vs juventus"	3
+"real bayern"	1
+"real madrid"	8
+"real madrid vs bayern munich"	12
+"red orchestra 2"	2
+"resultado concurso caixa 2014"	2
+"ricardo bauleo"	2
+"rocco hunt"	1
+"rosie coker"	1
+"sachin tendulkar"	7
+"saint george s day"	5
+"san giorgio"	3
+"scarlett johansson nude"	2
+"schloss gabelhofen"	2
+"sctv streaming"	1
+"segolene royal"	1
+"shazia ilmi"	7
+"shobha nagi reddy"	4
+"siostra bernadetta"	2
+"south sudan"	3
+"splendour in the grass 2014"	4
+"stephan jansen"	1
+"tag des bieres"	2
+"teagan presley"	1
+"teri polo"	1
+"tone damli"	6
+"unia europejska"	4
+"us embassy manila"	5
+"vancouver sun"	2
+"vodafone storing"	3
+"waalse pijl"	1
+"what is crop farming"	2
+"aereo"	1
+"alstom"	1
+"cognac"	1
+"earthquake"	1
+"fb"	1
+"ligue 1"	4
+"usj"	1
+"vtc"	1
+"imieniny"	2
+"malaria"	2
+"pukkelpop"	2
+"gsis"	3
+"khl"	3
+"moe"	3
+"pixinguinha"	3
+"sanomapro"	3
+"silumin"	3
+"sportbox"	3
+"uppsc"	3
+"zdf"	3
+"bet"	4
+"euroleague"	4
+"oneplus"	4
+"sctv"	4
+"sima"	4
+"vote"	4
+"jumper"	5
+"list"	5
+"pedofilia"	5
+"transcendence"	5
+"xiaomi"	5
+"aapl"	6
+"malta"	6
+"maxwell"	6
+"nfz"	6
+"pekao"	6
+"mcdonalds"	7
+"acl"	8
+"chelsea"	21
+"blank"	41

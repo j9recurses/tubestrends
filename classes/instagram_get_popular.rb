@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 ####class to grab popular data from instagram######. 
+require_relative './MyCoolClasses.rb'
 
-class GetInstagramPopular
+
+class GetInstagramPopular < MyCoolClass
   def initialize 
     require "rubygems"
     require 'json'
@@ -161,14 +163,47 @@ class GetInstagramPopular
     end
   end
 
+ 
+
+  def make_istagramg_json_obj(instagram_row_all, filename)
+    fields = [ 'the_date', 'sdoid' , 'lat', 'longt', 'link', 'thumbimage', 'regimage',  'tags', 'camera_filter', 'as_of', 'caption', 'likes_count', 'content_type' ]
+    insta_json_arry = Array.new
+    instagram_row_all.each do | g|
+      my_insta_hash = Hash[fields.zip(g)]
+      my_insta_hash = my_insta_hash.to_json
+      insta_json_arry << my_insta_hash
+    end
+    write_trend_rows_to_file2( filename, insta_json_arry,)
+  end
+
+  def main_instagram
+    body = makegetpoprequest 
+    instagram_row_all, instagram_row_all_string = parsebody(body)
+    puts "getting instagram trends on " + get_date.to_s
+    #insert_woeids_info_to_db(instagram_row_all)
+    ##name of file to write the trend data too; will need to write the file 
+
+    #create a unique file name
+    counter = 0
+    letter_array =  ('a'..'z').to_a
+    insta_trends_file = "/home/ubuntu/tubes_trends/json_data/instagram/instagram_trends_" + grab_the_date + "_" + letter_array[counter]+ ".json"
+      
+
+    while (  File.exist?insta_trends_file)
+      insta_trends_file = "/home/ubuntu/tubes_trends/json_data/instagram/instagram_trends_" + grab_the_date + "_" + letter_array[counter]+ ".json"
+      counter = counter + 1 
+    end
+
+ 
+    make_istagramg_json_obj(instagram_row_all, insta_trends_file)
+  end
+
+
 end
 
 ##################main###########################=
 gpi = GetInstagramPopular.new
-body = gpi.makegetpoprequest 
-instagram_row_all, instagram_row_all_string = gpi.parsebody(body)
-puts "getting instagram trends on " + gpi.get_date.to_s
-gpi.insert_woeids_info_to_db(instagram_row_all)
+gpi.main_instagram
 
 
 

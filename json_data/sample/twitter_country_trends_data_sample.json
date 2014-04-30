@@ -1,0 +1,12 @@
+#data is taken from the twitter api- GET trends/place. API documentation is here: https://dev.twitter.com/docs/api/1.1Woeid is a id for a country/geo-location location. 
+
+{"woeid":"23424748","the_date":"20140401","sdoid":"1","as_of":"'2014-04-01-T:00:30:22'","title":"'#HIMYMFinale'","url":"'http://twitter.com/search?q=%23HIMYMFinale'"}
+{"woeid":"23424748","the_date":"20140401","sdoid":"1","as_of":"'2014-04-01-T:00:30:22'","title":"'#AprilFoolsDay'","url":"'http://twitter.com/search?q=%23AprilFoolsDay'"}
+{"woeid":"23424748","the_date":"20140401","sdoid":"1","as_of":"'2014-04-01-T:00:30:22'","title":"'Will Smith'","url":"'http://twitter.com/search?q=%22Will+Smith%22'"}
+{"woeid":"23424748","the_date":"20140401","sdoid":"1","as_of":"'2014-04-01-T:00:30:22'","title":"'#HiCam'","url":"'http://twitter.com/search?q=%23HiCam'"}
+{"woeid":"23424748","the_date":"20140401","sdoid":"1","as_of":"'2014-04-01-T:00:30:22'","title":"'#edcuts'","url":"'http://twitter.com/search?q=%23edcuts'"}
+{"woeid":"23424748","the_date":"20140401","sdoid":"1","as_of":"'2014-04-01-T:00:30:22'","title":"'#cmworld'","url":"'http://twitter.com/search?q=%23cmworld'"}
+{"woeid":"23424748","the_date":"20140401","sdoid":"1","as_of":"'2014-04-01-T:00:30:22'","title":"'That Moment'","url":"'http://twitter.com/search?q=%22That+Moment%22'"}
+{"woeid":"23424748","the_date":"20140401","sdoid":"1","as_of":"'2014-04-01-T:00:30:22'","title":"'WrestleMania'","url":"'http://twitter.com/search?q=WrestleMania'"}
+{"woeid":"23424748","the_date":"20140401","sdoid":"1","as_of":"'2014-04-01-T:00:30:22'","title":"'Melbourne'","url":"'http://twitter.com/search?q=Melbourne'"}
+{"woeid":"23424748","the_date":"20140401","sdoid":"1","as_of":"'2014-04-01-T:00:30:22'","title":"'Tony Abbott'","url":"'http://twitter.com/search?q=%22Tony+Abbott%22'"}

@@ -38,7 +38,7 @@ sudo apt-get install lamp-server^
 #you will be prompted to enter a root password for mysql
 
 #in order to get apache to run you will need to add inbuound rules the security rules; in the aws console, at the bottom, go to 
-the inbound tab, then click on the drop down "create new rule"; add 80 (http) and #3306 (mysql- if you also want to be able to access the mysql server from outside the server) 
+#the inbound tab, then click on the drop down "create new rule"; add 80 (http) and #3306 (mysql- if you also want to be able to access the mysql server from outside the server) 
 #add the rules, and then click apply rule change; if you dont click apply rulechange then amazon wont apply the rules
 
 
@@ -57,6 +57,8 @@ sudo adduser ubuntu rvm
 #echo "[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" " >> ~/.bash_login
 
 
+1
+==source ~/.rvm/scripts/rvm
 
 #run this to refresh rvm:
 rvm reload

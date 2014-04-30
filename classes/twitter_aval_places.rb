@@ -1,5 +1,7 @@
  #!/usr/bin/env ruby
 ####class to load up location data from twttter and yahoo. 
+
+
 class GetWoeidInfo
 	##take a list of woeids and then populate a table; 
 	def initialize
@@ -369,7 +371,7 @@ class Get_all_avail_coutries  < GetWoeidInfo
 		#insert country woeid info into the db.
 		insert_woeids_place_all_info(@woeid_info_all, @table_type)
 		#clean up the db now that where done
-		cts.clean_up_db
+		clean_up_db
 	end
 
 	#some countries needed for google hot trends and youtube trens not in the twitter aval. places
@@ -431,16 +433,21 @@ class Get_timezone_info < Get_all_avail_coutries
 end
 
 
-##get continent information
- #Asia (24865671), Africa (24865670), North America (24865672), South America (24865673), Antarctica (28289421), Europe (24865675), and Pacific (Australia, New Zealand, and the other islands in the Pacific Ocean -- 24865674).
+#file_dir_for_data = '../json_data/places/'
+#pl = GetWoeidInfo.new
+#pl.do_all_the_stuff_for_setup(file_dir_for_data)
+#cts = Get_all_avail_coutries.new
+#country_stuff = cts.look_up_country_woeid(file_dir_for_data)
+#tz  =  Get_timezone_info.new
+#timezones =  tz.look_up_timezone_woeid(file_dir_for_data)
 
 
-####MAIN#### 
-####populate geo data first; will use it as a#######
-file_dir_for_data = '../data/'
-pl = GetWoeidInfo.new
-pl.do_all_the_stuff_for_setup(file_dir_for_data)
-cts = Get_all_avail_coutries.new
-country_stuff = cts.look_up_country_woeid(file_dir_for_data)
-tz  =  Get_timezone_info.new
-timezones =  tz.look_up_timezone_woeid(file_dir_for_data)
+#to use
+
+#puts "done with twitter on to youtube"
+
+
+#yt = YoutubeTrends_setup.new
+#yt.youtube_setup_main
+
+

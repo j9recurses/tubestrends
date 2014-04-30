@@ -1,0 +1,12 @@
+# This is for a bunch of places, (like cities, etc) Countries trend data can be found in another file. This place data is the same country data collected. The only difference is here we are collecting city/places and in the country file we are only collecting data about specific countries that are listed on google, twitter, and yahoo. Data is taken from the twitter api- GET trends/place. API documentation is here: https://dev.twitter.com/docs/api/1.1Woeid is a id for a country/geo-location location. 
+
+{"woeid":"1","the_date":"20140401","sdoid":"1","as_of":"'T07-52-59'","title":"'Download Foto Skandal Zaskia Gotik'","url":"'http://twitter.com/search?q=%22Download+Foto+Skandal+Zaskia+Gotik%22'"}
+{"woeid":"1","the_date":"20140401","sdoid":"1","as_of":"T07-52-59","title":"#Just4Indonesia","url":"http://twitter.com/search?q=%23Just4Indonesia"}
+{"woeid":"1","the_date":"20140401","sdoid":"1","as_of":"T07-52-59","title":"#MansurSavasıyor","url":"http://twitter.com/search?q=%23MansurSavas%C4%B1yor"}
+{"woeid":"1","the_date":"20140401","sdoid":"1","as_of":"T07-52-59","title":"#AprilFool","url":"http://twitter.com/search?q=%23AprilFool"}
+{"woeid":"1","the_date":"20140401","sdoid":"1","as_of":"T07-52-59","title":"#RipZaynMalik","url":"http://twitter.com/search?q=%23RipZaynMalik"}
+{"woeid":"1","the_date":"20140401","sdoid":"1","as_of":"T07-52-59","title":"Shan Chai","url":"http://twitter.com/search?q=%22Shan+Chai%22"}
+{"woeid":"1","the_date":"20140401","sdoid":"1","as_of":"T07-52-59","title":"RIP Frankie Knuckles","url":"http://twitter.com/search?q=%22RIP+Frankie+Knuckles%22"}
+{"woeid":"1","the_date":"20140401","sdoid":"1","as_of":"T07-52-59","title":"Hua Zi Lei","url":"http://twitter.com/search?q=%22Hua+Zi+Lei%22"}
+{"woeid":"1","the_date":"20140401","sdoid":"1","as_of":"T07-52-59","title":"#AbrilConADe","url":"http://twitter.com/search?q=%23AbrilConADe"}
+{"woeid":"1","the_date":"20140401","sdoid":"1","as_of":"T07-52-59","title":"Piggy 4","url":"http://twitter.com/search?q=%22Piggy+4%22"}

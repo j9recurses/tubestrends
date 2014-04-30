@@ -1,0 +1,5 @@
+##source data is scrapped from upper right corner of the user's facebook homepage
+sample of json object--> still working on this one. Almost done, just need to finish figuring out how to scrape the html href of the trend
+
+
+{the_date: the date, sdoid: int-id of the social network, trend_rank: int- rank of trend on facebook, trend_title: string-some trend title, trend_description: string/text based description of trend, trend_picture: html link to picture of the trend, trend_html: html href link to a link of where the trend first appeared}

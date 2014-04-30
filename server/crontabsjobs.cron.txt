@@ -8,3 +8,17 @@
 00 0-23/8 * * *  /usr/local/rvm/bin/ruby-1.9.3-p484 /home/ubuntu/final_project/getdata_scripts/twitter_get_tr_restoworld.rb >> /home/ubuntu/final_project/logs/twitter_trends_restofworld.log 2>&1
 ##get instagram popular
 23 * * * *  /usr/local/rvm/bin/ruby-1.9.3-p484 /home/ubuntu/final_project/getdata_scripts/instagram_get_popular.rb >> /home/ubuntu/final_project/logs/instagram_get_popular.log 2>&1
+
+
+
+rsync -rtavz /home/ubuntu/tubes_trends/json_data/ /mnt/s3/backupstest
+
+
+
+
+every */3 * * * * do
+  command "/classes/get_instagram_woeids.rb"
+end
+
+
+ /bin/bash -l -c 'ruby /home/ubuntu/tubes_trends/classes/twitter_get_tr_topcountries.rb >> /home/ubuntu/tubes_trends/logs/twitter_countries_log.txt'

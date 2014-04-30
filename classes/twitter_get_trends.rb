@@ -9,13 +9,23 @@ class TwitterTrends
   def initialize
     #Change the following values to those provided on dev.twitter.com
     # The consumer key identifies the application making the request.
-    # The access token identifies the user making the request.
-    @consumer_key = 'V2IMHyJ9trKa2ynGk1iyg'
-    @consumer_secret = 'Q5e2ULy2Q2ALk8Oa99bfBw1E09hifI8XuA8jXGLc3jo'
-    @access_token = '351064202-MQMWA7tjAIUgl7jJ1vdEWChtTJCJFp75zpbUT4Q1'
-    @access_token_secret = 'GSyrdheQcgHvNNXEQg7Ii57hxkmcECfEd9NOTDLcompAg'
-    @consumer_key = OAuth::Consumer.new( @consumer_key, @consumer_secret)
-    @access_token = OAuth::Token.new(@access_token, @access_token_secret)
+    # The access token identifies the user making the request. 
+    #for places
+    @consumer_key_places = 'V2IMHyJ9trKa2ynGk1iyg'
+    @consumer_secret_places = 'Q5e2ULy2Q2ALk8Oa99bfBw1E09hifI8XuA8jXGLc3jo'
+    @access_token_places = '351064202-MQMWA7tjAIUgl7jJ1vdEWChtTJCJFp75zpbUT4Q1'
+    @access_token_secret_places = 'GSyrdheQcgHvNNXEQg7Ii57hxkmcECfEd9NOTDLcompAg'
+    @consumer_key_places = OAuth::Consumer.new( @consumer_key_places, @consumer_secret_places)
+    @access_token_places = OAuth::Token.new(@access_token_places, @access_token_secret_places)
+
+    #for countries
+    @consumer_key_country = 'JKCXRoK0X5tDGRX5IcYhprQbY'
+    @consumer_secret_country = 'S0hQ49mfqmsHiacRJDojNE1eUvu61MtRGyMvkCcince61W5SJo'
+    @access_token_country = '2436491167-oj3ndDDqjJGFCCNNldUoYY7Aqh3yqpSAeKKQQez'
+    @access_token_secret_country = 'ZaqZrsAZVOiTINAE90xfa0DZjpZ64TXJj3CiVn3HDJfVr'
+    @consumer_key_country = OAuth::Consumer.new( @consumer_key_country, @consumer_secret_country)
+    @access_token_country = OAuth::Token.new(@access_token_country, @access_token_secret_country)
+
     @baseurl = "https://api.twitter.com"
   end
 
@@ -29,7 +39,7 @@ class TwitterTrends
     @http.use_ssl     = true
     @http.verify_mode = OpenSSL::SSL::VERIFY_PEER
     # Issue the request.
-    @request_trend_availible.oauth! @http, @consumer_key, @access_token
+    @request_trend_availible.oauth! @http, @consumer_key_country, @access_token_country
     @http.start
     @response_trend_availible = @http.request @request_trend_availible
     @response_trend_availible
@@ -71,9 +81,10 @@ class TwitterTrends
   end
 
    #creates the request for twitter trend place
-  def make_request_get_response_trend_place(woeid)
+  def make_request_get_response_trend_place(woeid, country)
     #EX: #https://api.twitter.com/1.1/trends/place.json?id=woeid
     @path_trend_place = "/1.1/trends/place.json?id="
+    @country =  @country
     #woeid is the where in the world yahoo place id 
     @woeid = woeid
     @address_trend_place = URI("#{@baseurl}#{@path_trend_place}#{@woeid}")
@@ -82,9 +93,18 @@ class TwitterTrends
     @http.use_ssl     = true
     @http.verify_mode = OpenSSL::SSL::VERIFY_PEER
     # Issue the request.
-    @request_trend_place.oauth! @http, @consumer_key, @access_token
-    @http.start
-    @response_trend_place = @http.request @request_trend_place
+    if @country == 'cntry'
+      @request_trend_place.oauth! @http, @consumer_key_country, @access_token_country
+      @http.start
+      @response_trend_place = @http.request @request_trend_place
+      @response_trend_place
+
+    elsif @country != 'cntry'
+      @request_trend_place.oauth! @http, @consumer_key_places, @access_token_places
+      @http.start
+      @response_trend_place = @http.request @request_trend_place
+      @response_trend_place
+    end
     @response_trend_place
   end
 
@@ -119,8 +139,8 @@ class TwitterTrends
     @trend_rows_string =  Array.new
     @trends = @tweets[0]['trends']
     @as_of = @tweets[0]['as_of']
-    @as_of = @as_of[-10, 9]
-    @as_of =  @as_of.gsub(/:/, '-')
+    @as_of = @as_of.chomp("Z") 
+    #@as_of =  @as_of.gsub(/:/, '-')
     @location = @tweets[0]["locations"]
     #@location_name = @location[0]["name"]
     @location_woeid = @location[0]["woeid"]

@@ -1,0 +1,7 @@
+#page source: http://www.youtube.com/trendsdashboard
+#about data availible for about 40 countries
+
+the_date: the date, sdoid: the source id of the social network, woeid: numeric id of country of the trend, rank: rank of trending video, 
+description: 1 sentence description of the video, number_of_views: number of views of the trending video, 
+video_link: href link to the video,  }
+
