@@ -1,0 +1,2142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424738" xml:lang="en-US">
+  <woeid>23424738</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>United Arab Emirates</name>
+  <country type="Country" code="AE" woeid="23424738">United Arab Emirates</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>24.014380</latitude>
+    <longitude>53.976898</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>22.644409</latitude>
+      <longitude>51.497978</longitude>
+    </southWest>
+    <northEast>
+      <latitude>26.282190</latitude>
+      <longitude>56.383430</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350824">Asia/Dubai</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424740" xml:lang="en-US">
+  <woeid>23424740</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Algeria</name>
+  <country type="Country" code="DZ" woeid="23424740">Algeria</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>28.026880</latitude>
+    <longitude>1.652840</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>18.960020</latitude>
+      <longitude>-8.673860</longitude>
+    </southWest>
+    <northEast>
+      <latitude>37.093731</latitude>
+      <longitude>11.979550</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350684">Africa/Algiers</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424747" xml:lang="en-US">
+  <woeid>23424747</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Argentina</name>
+  <country type="Country" code="AR" woeid="23424747">Argentina</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>-37.090698</latitude>
+    <longitude>-63.584801</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-55.057362</latitude>
+      <longitude>-73.577782</longitude>
+    </southWest>
+    <northEast>
+      <latitude>-21.781260</latitude>
+      <longitude>-53.637539</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424748" xml:lang="en-US">
+  <woeid>23424748</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Australia</name>
+  <country type="Country" code="AU" woeid="23424748">Australia</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>-24.912100</latitude>
+    <longitude>133.397995</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-54.640301</latitude>
+      <longitude>112.921112</longitude>
+    </southWest>
+    <northEast>
+      <latitude>-9.228820</latitude>
+      <longitude>159.278717</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>14</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424750" xml:lang="en-US">
+  <woeid>23424750</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Austria</name>
+  <country type="Country" code="AT" woeid="23424750">Austria</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>47.696510</latitude>
+    <longitude>13.345770</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>46.372299</latitude>
+      <longitude>9.530790</longitude>
+    </southWest>
+    <northEast>
+      <latitude>49.020710</latitude>
+      <longitude>17.160749</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350921">Europe/Vienna</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424753" xml:lang="en-US">
+  <woeid>23424753</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Bahrain</name>
+  <country type="Country" code="BH" woeid="23424753">Bahrain</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>26.024750</latitude>
+    <longitude>50.548500</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>25.542200</latitude>
+      <longitude>50.385799</longitude>
+    </southWest>
+    <northEast>
+      <latitude>26.292391</latitude>
+      <longitude>50.828499</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>6</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350812">Asia/Bahrain</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424757" xml:lang="en-US">
+  <woeid>23424757</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Belgium</name>
+  <country type="Country" code="BE" woeid="23424757">Belgium</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>50.501011</latitude>
+    <longitude>4.476840</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>49.496899</latitude>
+      <longitude>2.545630</longitude>
+    </southWest>
+    <northEast>
+      <latitude>51.505081</latitude>
+      <longitude>6.407910</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>9</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350891">Europe/Brussels</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424765" xml:lang="en-US">
+  <woeid>23424765</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Belarus</name>
+  <country type="Country" code="BY" woeid="23424765">Belarus</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>53.711048</latitude>
+    <longitude>27.973749</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>51.256401</latitude>
+      <longitude>23.176790</longitude>
+    </southWest>
+    <northEast>
+      <latitude>56.165710</latitude>
+      <longitude>32.770710</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350907">Europe/Minsk</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424768" xml:lang="en-US">
+  <woeid>23424768</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Brazil</name>
+  <country type="Country" code="BR" woeid="23424768">Brazil</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>-14.242900</latitude>
+    <longitude>-54.387798</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-33.750702</latitude>
+      <longitude>-73.985527</longitude>
+    </southWest>
+    <northEast>
+      <latitude>5.264860</latitude>
+      <longitude>-28.839041</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>14</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424775" xml:lang="en-US">
+  <woeid>23424775</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Canada</name>
+  <country type="Country" code="CA" woeid="23424775">Canada</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>56.954681</latitude>
+    <longitude>-98.308968</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>41.681019</latitude>
+      <longitude>-141.002701</longitude>
+    </southWest>
+    <northEast>
+      <latitude>83.110619</latitude>
+      <longitude>-52.620201</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>14</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424782" xml:lang="en-US">
+  <woeid>23424782</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Chile</name>
+  <country type="Country" code="CL" woeid="23424782">Chile</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>-35.705219</latitude>
+    <longitude>-71.341087</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-56.533779</latitude>
+      <longitude>-109.474930</longitude>
+    </southWest>
+    <northEast>
+      <latitude>-17.507549</latitude>
+      <longitude>-66.417549</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424787" xml:lang="en-US">
+  <woeid>23424787</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Colombia</name>
+  <country type="Country" code="CO" woeid="23424787">Colombia</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>4.116410</latitude>
+    <longitude>-72.958527</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-4.230480</latitude>
+      <longitude>-81.728111</longitude>
+    </southWest>
+    <northEast>
+      <latitude>13.390290</latitude>
+      <longitude>-66.869827</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350741">America/Bogota</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424796" xml:lang="en-US">
+  <woeid>23424796</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Denmark</name>
+  <country type="Country" code="DK" woeid="23424796">Denmark</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>56.276089</latitude>
+    <longitude>9.516950</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>54.559132</latitude>
+      <longitude>8.074720</longitude>
+    </southWest>
+    <northEast>
+      <latitude>57.751949</latitude>
+      <longitude>15.193240</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350895">Europe/Copenhagen</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424800" xml:lang="en-US">
+  <woeid>23424800</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Dominican Republic</name>
+  <country type="Country" code="DO" woeid="23424800">Dominican Republic</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>18.767900</latitude>
+    <longitude>-70.161743</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>17.469299</latitude>
+      <longitude>-72.003479</longitude>
+    </southWest>
+    <northEast>
+      <latitude>19.929850</latitude>
+      <longitude>-68.319992</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350791">America/Santo_Domingo</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424801" xml:lang="en-US">
+  <woeid>23424801</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Ecuador</name>
+  <country type="Country" code="EC" woeid="23424801">Ecuador</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>-1.781560</latitude>
+    <longitude>-78.106667</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-5.017340</latitude>
+      <longitude>-91.661240</longitude>
+    </southWest>
+    <northEast>
+      <latitude>1.454210</latitude>
+      <longitude>-75.200073</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424802" xml:lang="en-US">
+  <woeid>23424802</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Egypt</name>
+  <country type="Country" code="EG" woeid="23424802">Egypt</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>26.837090</latitude>
+    <longitude>30.796391</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>22.000000</latitude>
+      <longitude>24.698099</longitude>
+    </southWest>
+    <northEast>
+      <latitude>31.674179</latitude>
+      <longitude>36.894680</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350693">Africa/Cairo</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424803" xml:lang="en-US">
+  <woeid>23424803</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Ireland</name>
+  <country type="Country" code="IE" woeid="23424803">Ireland</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>53.175510</latitude>
+    <longitude>-8.152030</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>51.424511</latitude>
+      <longitude>-10.618340</longitude>
+    </southWest>
+    <northEast>
+      <latitude>55.436211</latitude>
+      <longitude>-5.997500</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350896">Europe/Dublin</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424819" xml:lang="en-US">
+  <woeid>23424819</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>France</name>
+  <country type="Country" code="FR" woeid="23424819">France</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>46.710670</latitude>
+    <longitude>1.718190</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>41.333740</latitude>
+      <longitude>-5.140600</longitude>
+    </southWest>
+    <northEast>
+      <latitude>51.089062</latitude>
+      <longitude>9.559320</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350911">Europe/Paris</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424824" xml:lang="en-US">
+  <woeid>23424824</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Ghana</name>
+  <country type="Country" code="GH" woeid="23424824">Ghana</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>7.955010</latitude>
+    <longitude>-1.031820</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>4.736720</latitude>
+      <longitude>-3.255420</longitude>
+    </southWest>
+    <northEast>
+      <latitude>11.173300</latitude>
+      <longitude>1.191780</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350682">Africa/Accra</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424829" xml:lang="en-US">
+  <woeid>23424829</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Germany</name>
+  <country type="Country" code="DE" woeid="23424829">Germany</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>51.164181</latitude>
+    <longitude>10.454150</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>47.270210</latitude>
+      <longitude>5.866240</longitude>
+    </southWest>
+    <northEast>
+      <latitude>55.058140</latitude>
+      <longitude>15.042050</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350890">Europe/Berlin</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424833" xml:lang="en-US">
+  <woeid>23424833</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Greece</name>
+  <country type="Country" code="GR" woeid="23424833">Greece</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>39.072449</latitude>
+    <longitude>21.845560</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>34.809502</latitude>
+      <longitude>19.374310</longitude>
+    </southWest>
+    <northEast>
+      <latitude>41.757111</latitude>
+      <longitude>29.700560</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350888">Europe/Athens</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424834" xml:lang="en-US">
+  <woeid>23424834</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Guatemala</name>
+  <country type="Country" code="GT" woeid="23424834">Guatemala</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>15.776250</latitude>
+    <longitude>-90.232307</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>13.737300</latitude>
+      <longitude>-92.241432</longitude>
+    </southWest>
+    <northEast>
+      <latitude>17.815201</latitude>
+      <longitude>-88.223190</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350761">America/Guatemala</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424846" xml:lang="en-US">
+  <woeid>23424846</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Republik Indonesia</name>
+  <country type="Country" code="ID" woeid="23424846">Republik Indonesia</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>0.109740</latitude>
+    <longitude>113.917397</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-11.004850</latitude>
+      <longitude>94.969833</longitude>
+    </southWest>
+    <northEast>
+      <latitude>6.075730</latitude>
+      <longitude>141.021805</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424848" xml:lang="en-US">
+  <woeid>23424848</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>India</name>
+  <country type="Country" code="IN" woeid="23424848">India</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>21.786600</latitude>
+    <longitude>82.794762</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>6.747100</latitude>
+      <longitude>68.032318</longitude>
+    </southWest>
+    <northEast>
+      <latitude>36.261688</latitude>
+      <longitude>97.403023</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350818">Asia/Kolkata</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424852" xml:lang="en-US">
+  <woeid>23424852</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Israel</name>
+  <country type="Country" code="IL" woeid="23424852">Israel</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>31.389299</latitude>
+    <longitude>35.361240</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>29.496500</latitude>
+      <longitude>34.267700</longitude>
+    </southWest>
+    <northEast>
+      <latitude>33.433380</latitude>
+      <longitude>35.940941</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>9</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350832">Asia/Jerusalem</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424853" xml:lang="en-US">
+  <woeid>23424853</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Italy</name>
+  <country type="Country" code="IT" woeid="23424853">Italy</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>42.503819</latitude>
+    <longitude>12.573470</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>35.493080</latitude>
+      <longitude>6.626650</longitude>
+    </southWest>
+    <northEast>
+      <latitude>47.091999</latitude>
+      <longitude>18.520281</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350914">Europe/Rome</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424856" xml:lang="en-US">
+  <woeid>23424856</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Japan</name>
+  <country type="Country" code="JP" woeid="23424856">Japan</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>37.487598</latitude>
+    <longitude>139.838287</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>20.425100</latitude>
+      <longitude>122.933647</longitude>
+    </southWest>
+    <northEast>
+      <latitude>45.557709</latitude>
+      <longitude>153.986847</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350861">Asia/Tokyo</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424860" xml:lang="en-US">
+  <woeid>23424860</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Jordan</name>
+  <country type="Country" code="JO" woeid="23424860">Jordan</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>31.279461</latitude>
+    <longitude>37.130680</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>29.184090</latitude>
+      <longitude>34.960232</longitude>
+    </southWest>
+    <northEast>
+      <latitude>33.374828</latitude>
+      <longitude>39.301128</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350808">Asia/Amman</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424863" xml:lang="en-US">
+  <woeid>23424863</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Kenya</name>
+  <country type="Country" code="KE" woeid="23424863">Kenya</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>-0.024350</latitude>
+    <longitude>37.903950</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-4.717120</latitude>
+      <longitude>33.908840</longitude>
+    </southWest>
+    <northEast>
+      <latitude>4.629330</latitude>
+      <longitude>41.899059</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350721">Africa/Nairobi</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424868" xml:lang="en-US">
+  <woeid>23424868</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>South Korea</name>
+  <country type="Country" code="KR" woeid="23424868">South Korea</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>36.448151</latitude>
+    <longitude>127.850166</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>33.106110</latitude>
+      <longitude>124.608147</longitude>
+    </southWest>
+    <northEast>
+      <latitude>38.612301</latitude>
+      <longitude>130.933899</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350854">Asia/Seoul</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424870" xml:lang="en-US">
+  <woeid>23424870</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Kuwait</name>
+  <country type="Country" code="KW" woeid="23424870">Kuwait</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>29.310150</latitude>
+    <longitude>47.494450</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>28.524500</latitude>
+      <longitude>46.557510</longitude>
+    </southWest>
+    <northEast>
+      <latitude>30.095800</latitude>
+      <longitude>48.783840</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>9</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350839">Asia/Kuwait</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424873" xml:lang="en-US">
+  <woeid>23424873</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Lebanon</name>
+  <country type="Country" code="LB" woeid="23424873">Lebanon</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>33.870800</latitude>
+    <longitude>35.863239</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>33.048908</latitude>
+      <longitude>35.103680</longitude>
+    </southWest>
+    <northEast>
+      <latitude>34.692680</latitude>
+      <longitude>36.622791</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>9</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350815">Asia/Beirut</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424874" xml:lang="en-US">
+  <woeid>23424874</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Latvia</name>
+  <country type="Country" code="LV" woeid="23424874">Latvia</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>56.880112</latitude>
+    <longitude>24.605240</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>55.672760</latitude>
+      <longitude>20.966061</longitude>
+    </southWest>
+    <northEast>
+      <latitude>58.087448</latitude>
+      <longitude>28.244431</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350913">Europe/Riga</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424898" xml:lang="en-US">
+  <woeid>23424898</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Oman</name>
+  <country type="Country" code="OM" woeid="23424898">Oman</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>20.814350</latitude>
+    <longitude>55.859261</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>16.645700</latitude>
+      <longitude>51.882011</longitude>
+    </southWest>
+    <northEast>
+      <latitude>26.500450</latitude>
+      <longitude>59.836510</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350844">Asia/Muscat</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424900" xml:lang="en-US">
+  <woeid>23424900</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Mexico</name>
+  <country type="Country" code="MX" woeid="23424900">Mexico</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>23.625740</latitude>
+    <longitude>-101.956253</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>14.532850</latitude>
+      <longitude>-118.867172</longitude>
+    </southWest>
+    <northEast>
+      <latitude>32.718620</latitude>
+      <longitude>-86.703392</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424901" xml:lang="en-US">
+  <woeid>23424901</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Malaysia</name>
+  <country type="Country" code="MY" woeid="23424901">Malaysia</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>3.945150</latitude>
+    <longitude>114.401657</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>0.663640</latitude>
+      <longitude>98.935059</longitude>
+    </southWest>
+    <northEast>
+      <latitude>7.583780</latitude>
+      <longitude>119.448433</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424908" xml:lang="en-US">
+  <woeid>23424908</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Nigeria</name>
+  <country type="Country" code="NG" woeid="23424908">Nigeria</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>9.084570</latitude>
+    <longitude>8.674250</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>4.277140</latitude>
+      <longitude>2.668440</longitude>
+    </southWest>
+    <northEast>
+      <latitude>13.892000</latitude>
+      <longitude>14.680060</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350709">Africa/Lagos</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424909" xml:lang="en-US">
+  <woeid>23424909</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Netherlands</name>
+  <country type="Country" code="NL" woeid="23424909">Netherlands</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>52.108200</latitude>
+    <longitude>5.329860</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>50.750401</latitude>
+      <longitude>3.357940</longitude>
+    </southWest>
+    <northEast>
+      <latitude>53.554241</latitude>
+      <longitude>7.226700</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350886">Europe/Amsterdam</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424910" xml:lang="en-US">
+  <woeid>23424910</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Norway</name>
+  <country type="Country" code="NO" woeid="23424910">Norway</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>64.556534</latitude>
+    <longitude>12.666170</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>57.962582</latitude>
+      <longitude>4.432920</longitude>
+    </southWest>
+    <northEast>
+      <latitude>71.185509</latitude>
+      <longitude>31.168409</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350910">Europe/Oslo</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424916" xml:lang="en-US">
+  <woeid>23424916</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>New Zealand</name>
+  <country type="Country" code="NZ" woeid="23424916">New Zealand</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>-43.586781</latitude>
+    <longitude>170.370987</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-52.618591</latitude>
+      <longitude>165.883804</longitude>
+    </southWest>
+    <northEast>
+      <latitude>-29.209970</latitude>
+      <longitude>-175.987198</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424919" xml:lang="en-US">
+  <woeid>23424919</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Peru</name>
+  <country type="Country" code="PE" woeid="23424919">Peru</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>-9.181340</latitude>
+    <longitude>-75.002357</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-18.349720</latitude>
+      <longitude>-81.326736</longitude>
+    </southWest>
+    <northEast>
+      <latitude>-0.012970</latitude>
+      <longitude>-68.677979</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350769">America/Lima</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424922" xml:lang="en-US">
+  <woeid>23424922</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Pakistan</name>
+  <country type="Country" code="PK" woeid="23424922">Pakistan</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>30.441851</latitude>
+    <longitude>69.359703</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>23.786699</latitude>
+      <longitude>60.878590</longitude>
+    </southWest>
+    <northEast>
+      <latitude>37.097000</latitude>
+      <longitude>77.840813</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350835">Asia/Karachi</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424923" xml:lang="en-US">
+  <woeid>23424923</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Poland</name>
+  <country type="Country" code="PL" woeid="23424923">Poland</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>51.918919</latitude>
+    <longitude>19.134300</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>49.002022</latitude>
+      <longitude>14.122810</longitude>
+    </southWest>
+    <northEast>
+      <latitude>54.835812</latitude>
+      <longitude>24.145781</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350923">Europe/Warsaw</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424924" xml:lang="en-US">
+  <woeid>23424924</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Panama</name>
+  <country type="Country" code="PA" woeid="23424924">Panama</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>8.417700</latitude>
+    <longitude>-80.112778</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>7.197900</latitude>
+      <longitude>-83.051453</longitude>
+    </southWest>
+    <northEast>
+      <latitude>9.650450</latitude>
+      <longitude>-77.174110</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350782">America/Panama</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424925" xml:lang="en-US">
+  <woeid>23424925</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Portugal</name>
+  <country type="Country" code="PT" woeid="23424925">Portugal</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>39.557919</latitude>
+    <longitude>-7.844810</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>30.028061</latitude>
+      <longitude>-31.266001</longitude>
+    </southWest>
+    <northEast>
+      <latitude>42.154121</latitude>
+      <longitude>-6.189310</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424930" xml:lang="en-US">
+  <woeid>23424930</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Qatar</name>
+  <country type="Country" code="QA" woeid="23424930">Qatar</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>25.318800</latitude>
+    <longitude>51.196758</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>24.482901</latitude>
+      <longitude>50.757011</longitude>
+    </southWest>
+    <northEast>
+      <latitude>26.177509</latitude>
+      <longitude>52.427509</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>9</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350849">Asia/Qatar</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424934" xml:lang="en-US">
+  <woeid>23424934</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Philippines</name>
+  <country type="Country" code="PH" woeid="23424934">Philippines</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>15.593050</latitude>
+    <longitude>120.739067</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>4.468110</latitude>
+      <longitude>116.812721</longitude>
+    </southWest>
+    <northEast>
+      <latitude>21.234150</latitude>
+      <longitude>126.856628</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350843">Asia/Manila</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424935" xml:lang="en-US">
+  <woeid>23424935</woeid>
+  <placeTypeName code="12">Territory</placeTypeName>
+  <name>Puerto Rico</name>
+  <country type="Territory" code="PR" woeid="23424935">Puerto Rico</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>18.223280</latitude>
+    <longitude>-66.428886</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>17.883039</latitude>
+      <longitude>-67.942719</longitude>
+    </southWest>
+    <northEast>
+      <latitude>18.520161</latitude>
+      <longitude>-65.219978</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>8</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350787">America/Puerto_Rico</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424936" xml:lang="en-US">
+  <woeid>23424936</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Russia</name>
+  <country type="Country" code="RU" woeid="23424936">Russia</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>59.453751</latitude>
+    <longitude>108.830719</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>41.185902</latitude>
+      <longitude>19.638861</longitude>
+    </southWest>
+    <northEast>
+      <latitude>81.856903</latitude>
+      <longitude>-168.997849</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>15</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424938" xml:lang="en-US">
+  <woeid>23424938</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Saudi Arabia</name>
+  <country type="Country" code="SA" woeid="23424938">Saudi Arabia</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>24.261190</latitude>
+    <longitude>45.120331</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>16.261169</latitude>
+      <longitude>34.508282</longitude>
+    </southWest>
+    <northEast>
+      <latitude>32.173481</latitude>
+      <longitude>55.666672</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350851">Asia/Riyadh</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424942" xml:lang="en-US">
+  <woeid>23424942</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>South Africa</name>
+  <country type="Country" code="ZA" woeid="23424942">South Africa</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>-28.479330</latitude>
+    <longitude>24.679930</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-46.990009</latitude>
+      <longitude>16.468410</longitude>
+    </southWest>
+    <northEast>
+      <latitude>-22.124720</latitude>
+      <longitude>37.993172</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350704">Africa/Johannesburg</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424948" xml:lang="en-US">
+  <woeid>23424948</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Singapore</name>
+  <country type="Country" code="SG" woeid="23424948">Singapore</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>1.365580</latitude>
+    <longitude>103.827713</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>1.115800</latitude>
+      <longitude>103.618248</longitude>
+    </southWest>
+    <northEast>
+      <latitude>1.470620</latitude>
+      <longitude>104.408470</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>6</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350856">Asia/Singapore</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424950" xml:lang="en-US">
+  <woeid>23424950</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Spain</name>
+  <country type="Country" code="ES" woeid="23424950">Spain</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>39.894890</latitude>
+    <longitude>-2.988310</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>27.635460</latitude>
+      <longitude>-18.160789</longitude>
+    </southWest>
+    <northEast>
+      <latitude>43.789959</latitude>
+      <longitude>4.327880</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424954" xml:lang="en-US">
+  <woeid>23424954</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Sweden</name>
+  <country type="Country" code="SE" woeid="23424954">Sweden</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>62.198448</latitude>
+    <longitude>17.551420</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>55.336960</latitude>
+      <longitude>10.966100</longitude>
+    </southWest>
+    <northEast>
+      <latitude>69.059937</latitude>
+      <longitude>24.166340</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350917">Europe/Stockholm</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424957" xml:lang="en-US">
+  <woeid>23424957</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Switzerland</name>
+  <country type="Country" code="CH" woeid="23424957">Switzerland</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>46.813202</latitude>
+    <longitude>8.223950</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>45.818020</latitude>
+      <longitude>5.955870</longitude>
+    </southWest>
+    <northEast>
+      <latitude>47.808380</latitude>
+      <longitude>10.492030</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350924">Europe/Zurich</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424960" xml:lang="en-US">
+  <woeid>23424960</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Thailand</name>
+  <country type="Country" code="TH" woeid="23424960">Thailand</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>13.036590</latitude>
+    <longitude>101.492500</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>5.612570</latitude>
+      <longitude>97.343964</longitude>
+    </southWest>
+    <northEast>
+      <latitude>20.464701</latitude>
+      <longitude>105.636917</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350814">Asia/Bangkok</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424969" xml:lang="en-US">
+  <woeid>23424969</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Turkey</name>
+  <country type="Country" code="TR" woeid="23424969">Turkey</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>38.957741</latitude>
+    <longitude>35.431702</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>35.809971</latitude>
+      <longitude>25.664101</longitude>
+    </southWest>
+    <northEast>
+      <latitude>42.105499</latitude>
+      <longitude>44.829700</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350899">Europe/Istanbul</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424975" xml:lang="en-US">
+  <woeid>23424975</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>United Kingdom</name>
+  <country type="Country" code="GB" woeid="23424975">United Kingdom</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>54.314072</latitude>
+    <longitude>-2.230010</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>49.162090</latitude>
+      <longitude>-13.413930</longitude>
+    </southWest>
+    <northEast>
+      <latitude>60.854691</latitude>
+      <longitude>1.768960</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350903">Europe/London</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424976" xml:lang="en-US">
+  <woeid>23424976</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Ukraine</name>
+  <country type="Country" code="UA" woeid="23424976">Ukraine</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>48.382881</latitude>
+    <longitude>31.173441</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>44.390411</latitude>
+      <longitude>22.128811</longitude>
+    </southWest>
+    <northEast>
+      <latitude>52.375359</latitude>
+      <longitude>40.218079</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424977" xml:lang="en-US">
+  <woeid>23424977</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>United States</name>
+  <country type="Country" code="US" woeid="23424977">United States</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>37.167931</latitude>
+    <longitude>-95.845016</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>18.911720</latitude>
+      <longitude>-179.150558</longitude>
+    </southWest>
+    <northEast>
+      <latitude>71.441048</latitude>
+      <longitude>-66.940643</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>14</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424982" xml:lang="en-US">
+  <woeid>23424982</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Venezuela</name>
+  <country type="Country" code="VE" woeid="23424982">Venezuela</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>6.472790</latitude>
+    <longitude>-66.589043</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>0.743680</latitude>
+      <longitude>-73.374313</longitude>
+    </southWest>
+    <northEast>
+      <latitude>12.201900</latitude>
+      <longitude>-59.803768</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350743">America/Caracas</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424984" xml:lang="en-US">
+  <woeid>23424984</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Vietnam</name>
+  <country type="Country" code="VN" woeid="23424984">Vietnam</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>15.974200</latitude>
+    <longitude>107.867996</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>7.311600</latitude>
+      <longitude>102.144592</longitude>
+    </southWest>
+    <northEast>
+      <latitude>23.392740</latitude>
+      <longitude>116.521233</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350852">Asia/Ho_Chi_Minh</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/1" xml:lang="en-US">
+  <woeid>1</woeid>
+  <placeTypeName code="19">Supername</placeTypeName>
+  <name>Earth</name>
+  <country/>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>0.000000</latitude>
+    <longitude>0.000000</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-90.000000</latitude>
+      <longitude>-180.000000</longitude>
+    </southWest>
+    <northEast>
+      <latitude>90.000000</latitude>
+      <longitude>180.000000</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>18</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424812" xml:lang="en-US">
+  <woeid>23424812</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Finland</name>
+  <country type="Country" code="FI" woeid="23424812">Finland</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>64.950142</latitude>
+    <longitude>26.067390</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>59.764881</latitude>
+      <longitude>20.548571</longitude>
+    </southWest>
+    <northEast>
+      <latitude>70.092308</latitude>
+      <longitude>31.586201</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350898">Europe/Helsinki</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424846" xml:lang="en-US">
+  <woeid>23424846</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Republik Indonesia</name>
+  <country type="Country" code="ID" woeid="23424846">Republik Indonesia</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>0.109740</latitude>
+    <longitude>113.917397</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-11.004850</latitude>
+      <longitude>94.969833</longitude>
+    </southWest>
+    <northEast>
+      <latitude>6.075730</latitude>
+      <longitude>141.021805</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424844" xml:lang="en-US">
+  <woeid>23424844</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Hungary</name>
+  <country type="Country" code="HU" woeid="23424844">Hungary</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>47.161160</latitude>
+    <longitude>19.504959</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>45.737061</latitude>
+      <longitude>16.113350</longitude>
+    </southWest>
+    <northEast>
+      <latitude>48.585258</latitude>
+      <longitude>22.896570</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350893">Europe/Budapest</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424846" xml:lang="en-US">
+  <woeid>23424846</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Republik Indonesia</name>
+  <country type="Country" code="ID" woeid="23424846">Republik Indonesia</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>0.109740</latitude>
+    <longitude>113.917397</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>-11.004850</latitude>
+      <longitude>94.969833</longitude>
+    </southWest>
+    <northEast>
+      <latitude>6.075730</latitude>
+      <longitude>141.021805</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>13</areaRank>
+  <popRank>0</popRank>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424933" xml:lang="en-US">
+  <woeid>23424933</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Romania</name>
+  <country type="Country" code="RO" woeid="23424933">Romania</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>45.946949</latitude>
+    <longitude>24.980400</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>43.626999</latitude>
+      <longitude>20.269791</longitude>
+    </southWest>
+    <northEast>
+      <latitude>48.266891</latitude>
+      <longitude>29.691000</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>11</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350892">Europe/Bucharest</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/24865698" xml:lang="en-US">
+  <woeid>24865698</woeid>
+  <placeTypeName code="12">Special Administrative Region</placeTypeName>
+  <name>Hong Kong</name>
+  <country type="Special Administrative Region" code="HK" woeid="24865698">Hong Kong</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>22.411200</latitude>
+    <longitude>114.153999</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>22.153549</latitude>
+      <longitude>113.835083</longitude>
+    </southWest>
+    <northEast>
+      <latitude>22.562040</latitude>
+      <longitude>114.441788</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>7</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350827">Asia/Hong_Kong</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424893" xml:lang="en-US">
+  <woeid>23424893</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Morocco</name>
+  <country type="Country" code="MA" woeid="23424893">Morocco</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>31.434200</latitude>
+    <longitude>-6.402450</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>26.946489</latitude>
+      <longitude>-11.780500</longitude>
+    </southWest>
+    <northEast>
+      <latitude>35.921909</latitude>
+      <longitude>-1.024410</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>12</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350694">Africa/Casablanca</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424810" xml:lang="en-US">
+  <woeid>23424810</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Czech Republic</name>
+  <country type="Country" code="CZ" woeid="23424810">Czech Republic</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>49.803879</latitude>
+    <longitude>15.474910</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>48.551971</latitude>
+      <longitude>12.090600</longitude>
+    </southWest>
+    <northEast>
+      <latitude>51.055779</latitude>
+      <longitude>18.859221</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350912">Europe/Prague</timezone>
+</place>
+<?xml version="1.0" encoding="UTF-8"?>
+<place xmlns="http://where.yahooapis.com/v1/schema.rng" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:uri="http://where.yahooapis.com/v1/place/23424971" xml:lang="en-US">
+  <woeid>23424971</woeid>
+  <placeTypeName code="12">Country</placeTypeName>
+  <name>Taiwan</name>
+  <country type="Country" code="TW" woeid="23424971">Taiwan</country>
+  <admin1/>
+  <admin2/>
+  <admin3/>
+  <locality1/>
+  <locality2/>
+  <postal/>
+  <centroid>
+    <latitude>23.598400</latitude>
+    <longitude>121.017998</longitude>
+  </centroid>
+  <boundingBox>
+    <southWest>
+      <latitude>21.896580</latitude>
+      <longitude>118.214104</longitude>
+    </southWest>
+    <northEast>
+      <latitude>26.392000</latitude>
+      <longitude>122.007500</longitude>
+    </northEast>
+  </boundingBox>
+  <areaRank>10</areaRank>
+  <popRank>0</popRank>
+  <timezone type="Time Zone" woeid="28350857">Asia/Taipei</timezone>
+</place>
