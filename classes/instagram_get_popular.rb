@@ -1,14 +1,9 @@
 #!/usr/bin/env ruby
 ####class to grab popular data from instagram######. 
-<<<<<<< HEAD
-
-class GetInstagramPopular
-=======
 require_relative './MyCoolClasses.rb'
 
 
 class GetInstagramPopular < MyCoolClass
->>>>>>> a1f2c31dab110704c5c4ab478a514e2384d1d87f
   def initialize 
     require "rubygems"
     require 'json'
@@ -168,8 +163,6 @@ class GetInstagramPopular < MyCoolClass
     end
   end
 
-<<<<<<< HEAD
-=======
  
 
   def make_istagramg_json_obj(instagram_row_all, filename)
@@ -213,19 +206,11 @@ class GetInstagramPopular < MyCoolClass
   end
 
 
->>>>>>> a1f2c31dab110704c5c4ab478a514e2384d1d87f
 end
 
 ##################main###########################=
 gpi = GetInstagramPopular.new
-<<<<<<< HEAD
-body = gpi.makegetpoprequest 
-instagram_row_all, instagram_row_all_string = gpi.parsebody(body)
-puts "getting instagram trends on " + gpi.get_date.to_s
-gpi.insert_woeids_info_to_db(instagram_row_all)
-=======
 gpi.main_instagram
->>>>>>> a1f2c31dab110704c5c4ab478a514e2384d1d87f
 
 
 
