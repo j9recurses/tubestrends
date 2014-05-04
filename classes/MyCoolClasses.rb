@@ -3,6 +3,15 @@
 ###class to where functions can be used over and over again
 
 class MyCoolClass
+<<<<<<< HEAD
+	def initialize
+		require 'rubygems'
+		#db parameters: 
+		@user = 'j9'
+		@password =  'chichi13'
+		@database =  'tubes_trends'
+		@host = 'localhost'
+=======
 	require 'watir-webdriver'
 	require 'headless'
 	require 'nokogiri'
@@ -12,22 +21,28 @@ class MyCoolClass
 
 	def initialize
 		require 'rubygems'
+>>>>>>> a1f2c31dab110704c5c4ab478a514e2384d1d87f
 	end
 
 	def connect_to_sqldb
 		#gem install mysql
 		require 'mysql'
+<<<<<<< HEAD
+=======
 		#db parameters: 
 		@user = 'j9'
 		@password =  'chichi13'
 		@database =  'tubes_trends'
 		@host = 'localhost'
+>>>>>>> a1f2c31dab110704c5c4ab478a514e2384d1d87f
 		begin
   		@db = Mysql.new(@host, @user, @password, @database)
 		rescue Mysql::Error
   		puts "Oh noes! We could not connect to our database. -_-;;"
  		exit 1
 		end
+<<<<<<< HEAD
+=======
 		@db
 	end
 
@@ -47,10 +62,21 @@ class MyCoolClass
 			puts "Something went wrong! Could not insert the data"
 			puts e
 		end
+>>>>>>> a1f2c31dab110704c5c4ab478a514e2384d1d87f
 	end
 
 
 	def write_trend_rows_to_file (filename, list)
+<<<<<<< HEAD
+  		@filename = filename
+  		@list = list
+  		begin
+  			# Create a new file and write to it  
+			@myfile = File.open(@filename, 'a')
+			@list.each do |trend| 
+				trend.each do |t|
+					@myfile.puts(t)
+=======
   		filename = filename
   		list = list
   		begin
@@ -59,11 +85,25 @@ class MyCoolClass
 			list.each do |trend| 
 				trend.each do |t|
 					myfile.puts(t)
+>>>>>>> a1f2c31dab110704c5c4ab478a514e2384d1d87f
 				end
 			end
   		end
 	end	
 
+<<<<<<< HEAD
+	def write_trend_rows_to_file2 (filename, list)
+  		@filename =  filename
+  		@list = list
+  		begin
+  			# Create a new file and write to it  
+			@myfile = File.open(@filename, 'a')
+			@list.each do |trend| 
+				@myfile.puts(trend)
+				end
+  		end
+	end
+=======
 	def write_trend_rows_to_file2 (filename, json_arry)
   		list = json_arry
   		begin
@@ -211,6 +251,7 @@ class MyCoolClass
   end
 
 
+>>>>>>> a1f2c31dab110704c5c4ab478a514e2384d1d87f
     
 end
 
